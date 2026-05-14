@@ -49,7 +49,7 @@ export const projects: Project[] = [
     tags: [ "Laravel", "Filament", "Mailer", "MySQL", "Sanctum"],
     source: [
      
-      { title: "Live Site", link: "" },
+      { title: "Live Site", link: "#" },
     ],
     imageUrl: "/cms.png",
   },
