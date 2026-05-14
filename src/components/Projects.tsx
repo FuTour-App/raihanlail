@@ -64,7 +64,7 @@ export default function Projects() {
               <div className="relative h-48 w-full border-b border-border overflow-hidden bg-surface">
                 {/* Next.js Image Component */}
                 <Image
-                  src={project.imageUrl} // Cleans path if needed
+                 src={project.imageUrl || '/placeholder.png'} // Cleans path if needed
                   alt={project.title}
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-110 opacity-60 group-hover:opacity-100"
